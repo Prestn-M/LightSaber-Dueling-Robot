@@ -32,7 +32,8 @@ void setup() {
 // Limit servo range safely
 int adjustPosition(int current, int delta) {
   current += delta;
-  current = constrain(current, 0, 214);
+  current = constrain(current, 0, 180
+    );
   return current; 
 }
 
